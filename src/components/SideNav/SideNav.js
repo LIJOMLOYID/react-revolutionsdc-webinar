@@ -1,11 +1,37 @@
-import React from 'react';
+import React from "react";
 
-import './sidenav.css';
+import "./sidenav.css";
 
 export const SideNav = () => {
-    return (
-        <div className="sidenav">
-            
-        </div>
-    );
+  return (
+    <div className="sidenav">
+      <img
+        src="https://avatars2.githubusercontent.com/u/2143962"
+        className="avatar"
+        alt="avatar"
+      />
+      <h2 className="main-name">Lijo M Loyid</h2>
+      <p className="subtitle">"A Cadet Who Codes"</p>
+      <div className="sections-list">
+        {/* <p
+          className="section-list-element"
+          onClick={() => handleSectionClick("about")}
+        >
+          About Me
+        </p>
+        <p
+          className="section-list-element"
+          onClick={() => handleSectionClick("skills")}
+        >
+          Skills
+        </p>
+        <p
+          className="section-list-element"
+          onClick={() => handleSectionClick("projects")}
+        >
+          Projects
+        </p> */}
+      </div>
+    </div>
+  );
 };
