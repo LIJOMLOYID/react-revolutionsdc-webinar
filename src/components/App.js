@@ -13,7 +13,7 @@ class App extends Component {
     super();
 
     this.state = {
-      selectedSection: about,
+      selectedSection: "about",
       selectedHeading: about.heading,
       selectedQuote: about.quote,
       about: about,
