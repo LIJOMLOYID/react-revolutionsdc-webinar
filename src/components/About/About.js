@@ -1,10 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import './about.css';
+import "./about.css";
 
-export const About = () => {
-    return (
-        <div className="about-container">
-        </div>
-    )
-}
+export const About = ({ about }) => {
+  console.log(about);
+  return (
+    <div className="about-container">
+      <p>{about.bio}</p>
+    </div>
+  );
+};

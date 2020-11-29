@@ -13,11 +13,22 @@ class App extends Component {
     super();
 
     this.state = {
-      selectedSection: "about",
-      selectedHeading: "My Section",
-      selectedQuote: "My Quote",
+      selectedSection: about,
+      selectedHeading: about.heading,
+      selectedQuote: about.quote,
+      about: about,
+      projects: projects,
+      skills: skills,
     };
   }
+
+  handleSectionClick = (sectionName) => {
+    this.setState({
+      selectedSection: sectionName,
+      selectedHeading: this.state[sectionName].heading,
+      selectedQuote: this.state[sectionName].quote,
+    });
+  };
 
   render() {
     return (
@@ -26,6 +37,10 @@ class App extends Component {
           selectedSection={this.state.selectedSection}
           selectedHeading={this.state.selectedHeading}
           selectedQuote={this.state.selectedQuote}
+          handleSectionClick={this.handleSectionClick}
+          about={this.state.about}
+          skills={this.state.skills}
+          projects={this.state.projects}
         />
       </div>
     );

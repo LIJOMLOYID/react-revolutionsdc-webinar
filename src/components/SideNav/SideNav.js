@@ -2,7 +2,7 @@ import React from "react";
 
 import "./sidenav.css";
 
-export const SideNav = () => {
+export const SideNav = ({ handleSectionClick }) => {
   return (
     <div className="sidenav">
       <img
@@ -13,7 +13,7 @@ export const SideNav = () => {
       <h2 className="main-name">Lijo M Loyid</h2>
       <p className="subtitle">"A Cadet Who Codes"</p>
       <div className="sections-list">
-        {/* <p
+        <p
           className="section-list-element"
           onClick={() => handleSectionClick("about")}
         >
@@ -30,7 +30,7 @@ export const SideNav = () => {
           onClick={() => handleSectionClick("projects")}
         >
           Projects
-        </p> */}
+        </p>
       </div>
     </div>
   );
