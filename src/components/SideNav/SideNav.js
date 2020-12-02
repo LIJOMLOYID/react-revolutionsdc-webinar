@@ -31,6 +31,12 @@ export const SideNav = ({ handleSectionClick }) => {
         >
           Projects
         </p>
+        <p
+          className="section-list-element"
+          onClick={() => handleSectionClick("experiences")}
+        >
+          Experiences
+        </p>
       </div>
     </div>
   );

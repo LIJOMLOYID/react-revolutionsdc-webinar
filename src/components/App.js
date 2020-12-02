@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 
 import "./App.css";
 import Portfolio from "./Portfolio/Portfolio";
@@ -8,43 +8,52 @@ import { experiences } from "../constants/Experiences";
 import { projects } from "../constants/Projects";
 import { skills } from "../constants/Skills";
 
-class App extends Component {
-  constructor() {
-    super();
+const App = () => {
+  const [state, setState] = useState({
+    selectedSection: "about",
+    selectedHeading: about.heading,
+    selectedQuote: about.quote,
+    about: about,
+    projects: projects,
+    skills: skills,
+    experiences: experiences,
+  });
 
-    this.state = {
-      selectedSection: "about",
-      selectedHeading: about.heading,
-      selectedQuote: about.quote,
-      about: about,
-      projects: projects,
-      skills: skills,
-    };
-  }
+  // constructor() {
+  //   super();
+  //   this.state = {
+  //     selectedSection: "about",
+  //     selectedHeading: about.heading,
+  //     selectedQuote: about.quote,
+  //     about: about,
+  //     projects: projects,
+  //     skills: skills,
+  //   };
+  // }
 
-  handleSectionClick = (sectionName) => {
-    this.setState({
+  const handleSectionClick = (sectionName) => {
+    setState({
+      ...state,
       selectedSection: sectionName,
-      selectedHeading: this.state[sectionName].heading,
-      selectedQuote: this.state[sectionName].quote,
+      selectedHeading: state[sectionName].heading,
+      selectedQuote: state[sectionName].quote,
     });
   };
 
-  render() {
-    return (
-      <div className="App">
-        <Portfolio
-          selectedSection={this.state.selectedSection}
-          selectedHeading={this.state.selectedHeading}
-          selectedQuote={this.state.selectedQuote}
-          handleSectionClick={this.handleSectionClick}
-          about={this.state.about}
-          skills={this.state.skills}
-          projects={this.state.projects}
-        />
-      </div>
-    );
-  }
-}
+  return (
+    <div className="App">
+      <Portfolio
+        selectedSection={state.selectedSection}
+        selectedHeading={state.selectedHeading}
+        selectedQuote={state.selectedQuote}
+        handleSectionClick={handleSectionClick}
+        about={state.about}
+        skills={state.skills}
+        projects={state.projects}
+        experiences={state.experiences}
+      />
+    </div>
+  );
+};
 
 export default App;
