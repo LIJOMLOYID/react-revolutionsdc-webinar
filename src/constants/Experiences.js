@@ -7,25 +7,7 @@ export const experiences = {
       companyName: "ThinkPalm",
       role: "Software Developer",
       about:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      companyName: "Company 2",
-      role: "Software Developer",
-      about:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      companyName: "Company 3",
-      role: "Software Developer",
-      about:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      companyName: "Company 4",
-      role: "Software Developer",
-      about:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Product Engineering and Software Development company, equipped with a holistic approach and diverse industry expertise in IoT, Enterprise and Telecom sectors. Lijo is currently working as a Java developer at ThinkPalm with focus on building scalable enterprise software products and RESTful Web Services",
     },
   ],
 };
