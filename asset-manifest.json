@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.6a378717.chunk.css",
-    "main.js": "/resume/static/js/main.ee00c935.chunk.js",
-    "main.js.map": "/resume/static/js/main.ee00c935.chunk.js.map",
-    "runtime-main.js": "/resume/static/js/runtime-main.d86b74a1.js",
-    "runtime-main.js.map": "/resume/static/js/runtime-main.d86b74a1.js.map",
-    "static/js/2.7d28a4d7.chunk.js": "/resume/static/js/2.7d28a4d7.chunk.js",
-    "static/js/2.7d28a4d7.chunk.js.map": "/resume/static/js/2.7d28a4d7.chunk.js.map",
-    "index.html": "/resume/index.html",
-    "precache-manifest.5cca31f13ab4cc07329a70aa274f4fc2.js": "/resume/precache-manifest.5cca31f13ab4cc07329a70aa274f4fc2.js",
-    "service-worker.js": "/resume/service-worker.js",
-    "static/css/main.6a378717.chunk.css.map": "/resume/static/css/main.6a378717.chunk.css.map",
-    "static/js/2.7d28a4d7.chunk.js.LICENSE.txt": "/resume/static/js/2.7d28a4d7.chunk.js.LICENSE.txt"
+    "main.css": "/react-revolutionsdc-webinar/static/css/main.6a378717.chunk.css",
+    "main.js": "/react-revolutionsdc-webinar/static/js/main.57345d15.chunk.js",
+    "main.js.map": "/react-revolutionsdc-webinar/static/js/main.57345d15.chunk.js.map",
+    "runtime-main.js": "/react-revolutionsdc-webinar/static/js/runtime-main.ff0b1260.js",
+    "runtime-main.js.map": "/react-revolutionsdc-webinar/static/js/runtime-main.ff0b1260.js.map",
+    "static/js/2.7d28a4d7.chunk.js": "/react-revolutionsdc-webinar/static/js/2.7d28a4d7.chunk.js",
+    "static/js/2.7d28a4d7.chunk.js.map": "/react-revolutionsdc-webinar/static/js/2.7d28a4d7.chunk.js.map",
+    "index.html": "/react-revolutionsdc-webinar/index.html",
+    "precache-manifest.9d52330f4e50ca9bbcbd10722252648c.js": "/react-revolutionsdc-webinar/precache-manifest.9d52330f4e50ca9bbcbd10722252648c.js",
+    "service-worker.js": "/react-revolutionsdc-webinar/service-worker.js",
+    "static/css/main.6a378717.chunk.css.map": "/react-revolutionsdc-webinar/static/css/main.6a378717.chunk.css.map",
+    "static/js/2.7d28a4d7.chunk.js.LICENSE.txt": "/react-revolutionsdc-webinar/static/js/2.7d28a4d7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d86b74a1.js",
+    "static/js/runtime-main.ff0b1260.js",
     "static/js/2.7d28a4d7.chunk.js",
     "static/css/main.6a378717.chunk.css",
-    "static/js/main.ee00c935.chunk.js"
+    "static/js/main.57345d15.chunk.js"
   ]
 }
